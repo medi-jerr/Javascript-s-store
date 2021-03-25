@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop card | Cart</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    Chopping Cart
+                </a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="regester.html">Sign Up</a></li>
+                    </ul>
+                    <ul id="username">
+                        <li><a href="#" id='yourname'></a></li>
+                        <li>
+                            <i onclick="appearDrop()" class="fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+                            <div class="drop-down">
+                                <div class="choosed-items"></div>
+                                <a href="cartProducts.html">view all products</a>
+                            </div>
+                        </li>
+                        <li><a href="#" id='logout'>Log out</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="products">
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/user.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>
